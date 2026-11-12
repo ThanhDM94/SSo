@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SON - Cốm & Bánh Việt | Hương Vị Cổ Truyền Đất Kinh Kỳ</title>
+  <meta name="description"
+    content="Tiệm bánh SON - Cốm và Bánh Việt. Bánh cốm mộc làng Vòng, bánh đậu xanh hoàng kim, bánh phu thê, bánh gai cổ truyền. 100% nguyên liệu tự nhiên, không chất bảo quản.">
+  <meta name="keywords"
+    content="Bánh cốm Hà Nội, Bánh cốm mộc, Bánh đậu xanh, Bánh phu thê, Bánh gai, Tiệm bánh SON, Cốm và bánh Việt">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SON - Cốm & Bánh Việt | Hương Vị Cổ Truyền Đất Kinh Kỳ">
+  <meta property="og:description" content="Gìn giữ hương vị cổ truyền Hà Nội xưa trong từng nếp bánh thủ công mộc mạc.">
+  <meta property="og:image" content="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/hero_banh_com.png">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/logo.png">
+
+  <!-- Google Fonts: Be Vietnam Pro (Title) & Roboto (Body) theo chuẩn Design.md -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       1. NAVIGATION BAR: SUB-MENU & MAIN-MENU (THEO ĐÚNG YÊU CẦU MỚI)
+       ========================================================================== -->
+  <header class="site-header">
+    <!-- 1.1. SUB-MENU: Thời gian mở cửa, Hotline, Địa chỉ cửa hàng -->
+    <div class="site-sub-menu">
+      <div class="container-custom">
+        <div class="sub-menu-inner">
+          <div class="sub-menu-item">
+            <svg class="stroke-icon" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+            <span>Thời gian mở cửa: <strong>06:30 - 21:30 hàng ngày</strong></span>
+          </div>
+          <div class="sub-menu-item">
+            <svg class="stroke-icon" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            <span>Hotline: <a href="tel:0988123456" class="sub-menu-hotline-link">0988 123 456</a> - <a
+                href="tel:02438289999" class="sub-menu-hotline-link">024 3828 9999</a></span>
+          </div>
+          <div class="sub-menu-item hide-on-mobile">
+            <svg class="stroke-icon" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span>Địa chỉ: <strong>56 Phố Hàng Than, Ba Đình, Hà Nội</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1.2. MAIN-MENU: Logo bên trái (tăng kích thước 30%, bỏ subtext), Toàn bộ thông tin còn lại bên phải -->
+    <div class="site-main-menu">
+      <div class="container-custom">
+        <div class="main-menu-inner">
+          <!-- Bên trái: Logo Thương hiệu (Chỉ giữ ảnh biểu tượng Logo, loại bỏ text) -->
+          <a href="#home" class="brand-left" aria-label="Trang chủ SON Cake">
+            <img src="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/logo.png" alt="SON - Cốm & Bánh Việt"
+              class="brand-logo-img" onerror="this.style.display='none'">
+          </a>
+
+          <!-- Bên phải: Toàn bộ thông tin điều hướng (Sản phẩm 1-4 Dropdowns, Icon Menu, Giỏ bánh) -->
+          <div class="main-menu-right-group">
+            <ul class="main-nav-products">
+              <!-- Sản phẩm 1 (Dropdown) -->
+              <li class="nav-dropdown">
+                <button class="nav-dropdown-btn" aria-haspopup="true">
+                  Bánh Cốm Hà Nội <span class="arrow-icon"><svg class="stroke-icon" width="14" height="14"
+                      viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg></span>
+                </button>
+                <div class="dropdown-menu">
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-com')">
+                    <span>Bánh Cốm Mộc Làng Vòng</span>
+                    <span class="dropdown-badge">Bán chạy</span>
+                  </a>
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-com')">
+                    <span>Bánh Cốm Xào Dừa Non</span>
+                  </a>
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-com')">
+                    <span>Bánh Cốm Tươi Lá Sen</span>
+                  </a>
+                </div>
+              </li>
+
+              <!-- Sản phẩm 2 (Dropdown) -->
+              <li class="nav-dropdown">
+                <button class="nav-dropdown-btn" aria-haspopup="true">
+                  Bánh Đậu Xanh <span class="arrow-icon"><svg class="stroke-icon" width="14" height="14"
+                      viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg></span>
+                </button>
+                <div class="dropdown-menu">
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-dau-xanh')">
+                    <span>Bánh Đậu Xanh Hoàng Kim</span>
+                    <span class="dropdown-badge">Thượng hạng</span>
+                  </a>
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-dau-xanh')">
+                    <span>Bánh Đậu Xanh Hạt Sen</span>
+                  </a>
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-dau-xanh')">
+                    <span>Bánh Đậu Xanh Mỡ Hoa</span>
+                  </a>
+                </div>
+              </li>
+
+              <!-- Sản phẩm 3 (Dropdown) -->
+              <li class="nav-dropdown">
+                <button class="nav-dropdown-btn" aria-haspopup="true">
+                  Bánh Phu Thê <span class="arrow-icon"><svg class="stroke-icon" width="14" height="14"
+                      viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg></span>
+                </button>
+                <div class="dropdown-menu">
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-phu-the')">
+                    <span>Bánh Phu Thê Hạnh Phúc</span>
+                    <span class="dropdown-badge">Hỷ sự</span>
+                  </a>
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-phu-the')">
+                    <span>Bánh Xu Xê Vàng Hổ Phách</span>
+                  </a>
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-phu-the')">
+                    <span>Mâm Quả Bánh Phu Thê Cưới</span>
+                  </a>
+                </div>
+              </li>
+
+              <!-- Sản phẩm 4 (Dropdown) -->
+              <li class="nav-dropdown">
+                <button class="nav-dropdown-btn" aria-haspopup="true">
+                  Hộp Quà & Bánh Khác <span class="arrow-icon"><svg class="stroke-icon" width="14" height="14"
+                      viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg></span>
+                </button>
+                <div class="dropdown-menu">
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('hop-qua')">
+                    <span>Hộp Quà Ký Ức Hà Thành</span>
+                    <span class="dropdown-badge">Biếu tặng</span>
+                  </a>
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-gai')">
+                    <span>Bánh Gai Lá Gai Cổ Truyền</span>
+                  </a>
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-khac')">
+                    <span>Chè Lam Gừng Già Phố Cổ</span>
+                  </a>
+                  <a href="#products" class="dropdown-item" onclick="filterAndScroll('banh-khac')">
+                    <span>Bánh Khảo Hạt Sen Cung Đình</span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Nhóm hành động: Giỏ hàng & Icon Menu -->
+            <div class="main-menu-actions">
+              <button class="header-cart-btn" onclick="openCart()" aria-label="Mở giỏ hàng">
+                <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
+                  <path d="M3 6h18" />
+                  <path d="M16 10a4 4 0 0 1-8 0" />
+                </svg>
+                <span id="cartBadge" class="cart-badge" style="display:none;">0</span>
+              </button>
+
+              <!-- Icon Menu Trigger Button (Mở: Trang chủ, Câu chuyện, Danh sách sản phẩm, Cửa hàng và liên hệ) -->
+              <button class="icon-menu-trigger-btn" onclick="openSideNav()" aria-label="Mở danh mục menu">
+                <span class="menu-hamburger-icon"><svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24"
+                    aria-hidden="true">
+                    <line x1="4" x2="20" y1="12" y2="12" />
+                    <line x1="4" x2="20" y1="6" y2="6" />
+                    <line x1="4" x2="20" y1="18" y2="18" />
+                  </svg></span>
+                <span>Menu</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       SIDE NAV DRAWER (MỞ RA KHI BẤM ICON MENU)
+       Chứa đúng 4 mục theo yêu cầu: Trang chủ, Câu chuyện, Danh sách sản phẩm, Cửa hàng và liên hệ
+       ========================================================================== -->
+  <div id="sideNavOverlay" class="cart-overlay" onclick="closeSideNav()"></div>
+  <aside id="sideNavDrawer" class="side-nav-drawer" role="dialog" aria-label="Menu điều hướng">
+    <div class="side-nav-header">
+      <div class="side-nav-title">Tiệm Bánh SON</div>
+      <button class="side-nav-close-btn" onclick="closeSideNav()" aria-label="Đóng menu">
+        <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18 6 6 18" />
+          <path d="m6 6 12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- 4 Liên kết chính theo yêu cầu -->
+    <ul class="side-nav-links">
+      <li>
+        <a href="#home" class="side-nav-link" onclick="closeSideNav()">
+          <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <polyline points="9 22 9 12 15 12 15 22" />
+          </svg>
+          <span>Trang chủ</span>
+        </a>
+      </li>
+      <li>
+        <a href="#about" class="side-nav-link" onclick="closeSideNav()">
+          <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+          </svg>
+          <span>Câu chuyện thương hiệu</span>
+        </a>
+      </li>
+      <li>
+        <a href="#products" class="side-nav-link" onclick="closeSideNav()">
+          <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+            <rect width="7" height="7" x="3" y="3" rx="1" />
+            <rect width="7" height="7" x="14" y="3" rx="1" />
+            <rect width="7" height="7" x="14" y="14" rx="1" />
+            <rect width="7" height="7" x="3" y="14" rx="1" />
+          </svg>
+          <span>Danh sách sản phẩm</span>
+        </a>
+      </li>
+      <li>
+        <a href="#booking" class="side-nav-link" onclick="closeSideNav()">
+          <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <span>Cửa hàng và liên hệ</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:void(0)" class="side-nav-link" onclick="closeSideNav(); openCart();"
+          style="color:var(--color-main);">
+          <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
+            <path d="M3 6h18" />
+            <path d="M16 10a4 4 0 0 1-8 0" />
+          </svg>
+          <span>Xem giỏ hàng (<strong id="sideCartCount">0</strong>)</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="side-nav-footer">
+      <div style="font-weight:700; color:var(--color-main); margin-bottom:4px;">Hotline đặt bánh:</div>
+      <div
+        style="font-family:var(--font-title); font-size:16px; font-weight:700; color:var(--color-earth); margin-bottom:8px;">
+        0988 123 456</div>
+      <div>56 Phố Hàng Than, Ba Đình, Hà Nội</div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==========================================================================
+         2. HERO SECTION (CAO 80% SCREEN VIEW, TITLE & SUBTITLE GÓC DƯỚI PHẢI CHIẾM 3 CỘT,
+            HÌNH ẢNH PREVIEW SLIDE TIẾP THEO GÓC DƯỚI TRÁI CĂN ĐÁY, BỎ ICON NEXT/BACK)
+         ========================================================================== -->
+    <section id="home" class="hero-section">
+      <div class="hero-carousel">
+        <!-- Nền Slide 1 -->
+        <div class="hero-slide active">
+          <div class="hero-slide-bg"
+            style="background-image: url('https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/hero_banh_com.png');">
+          </div>
+          <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Nền Slide 2 -->
+        <div class="hero-slide">
+          <div class="hero-slide-bg"
+            style="background-image: url('https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/LAI_4369.jpg');">
+          </div>
+          <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Nền Slide 3 -->
+        <div class="hero-slide">
+          <div class="hero-slide-bg"
+            style="background-image: url('https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/LAI_4414.jpg');">
+          </div>
+          <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Nền Slide 4 -->
+        <div class="hero-slide">
+          <div class="hero-slide-bg"
+            style="background-image: url('https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/story_artisan.png');">
+          </div>
+          <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Nền Slide 5 -->
+        <div class="hero-slide">
+          <div class="hero-slide-bg"
+            style="background-image: url('https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/LAI_4380.jpg');">
+          </div>
+          <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Lớp nội dung đáy Hero Banner (Cấu trúc 6 cột, căn đáy) -->
+        <div class="hero-bottom-layer">
+          <div class="container-custom">
+            <div class="hero-bottom-grid">
+              <!-- Góc dưới bên trái (chiếm 3 cột): 4 ảnh preview trên 1 hàng, highlight ảnh đang hiển thị -->
+              <div class="hero-preview-wrap">
+                <div class="hero-preview-list" id="heroPreviewList">
+                  <!-- Rendered dynamically by script.js -->
+                </div>
+              </div>
+
+              <!-- Góc dưới bên phải (chiếm 4 cột): Title, Sub-Title & Nút Mua bánh -->
+              <div class="hero-info-right">
+                <span class="hero-badge-tag" id="heroBadge"><svg class="stroke-icon" width="14" height="14"
+                    viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
+                  </svg> <span>Tinh hoa ẩm thực Hà Nội</span></span>
+                <h1 class="hero-heading" id="heroTitle">Hương Cốm Xưa <br><span class="highlight">Trọn Vị Tình
+                    Quê</span></h1>
+                <p class="hero-text" id="heroSubtitle">
+                  Từng hạt cốm non đầu mùa được rang xào thủ công trên than hồng, bọc trọn nhân đậu xanh thơm bùi và gói
+                  ghém dịu dàng trong tàu lá sen thơm ngát.
+                </p>
+                <div class="hero-cta-wrap">
+                  <a href="#products" class="btn-primary">
+                    <span>Mua Bánh Ngay</span>
+                    <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. CORE VALUE SECTION (CAM KẾT TRAO GỬI TRỌN VẸN - 3 VÒNG TRÒN WIREFRAME)
+         ========================================================================== -->
+    <section class="core-value-section">
+      <div class="container-custom">
+        <div style="text-align:center;">
+          <div class="section-tag">Cam kết từ tiệm bánh SON</div>
+          <h2 class="section-title">Giá Trị Cốt Lõi & Cam Kết</h2>
+          <p class="section-desc">
+            Chúng tôi xem mỗi chiếc bánh như một tác phẩm gìn giữ văn hóa, cam kết gửi trao hương vị thanh thuần và an
+            lành nhất đến tay từng thực khách.
+          </p>
+        </div>
+
+        <div class="core-value-grid">
+          <!-- Item 1 -->
+          <div class="core-value-card reveal-init">
+            <div class="core-value-icon">
+              <svg class="stroke-icon" width="32" height="32" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M2 22 16 8" />
+                <path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z" />
+                <path d="M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z" />
+                <path d="M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z" />
+                <path d="M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z" />
+                <path d="M11.47 17.47 13 19l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L5 19l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z" />
+                <path d="M15.47 13.47 17 15l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L9 15l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z" />
+                <path d="M19.47 9.47 21 11l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L13 11l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z" />
+              </svg>
+            </div>
+            <h3 class="core-value-title">100% Cốm Nếp Mộc</h3>
+            <p class="core-value-text">
+              Nguyên liệu cốm nếp non dẻo thơm hái từ sớm mai. Cam kết không chất tạo màu, giữ trọn sắc xanh mộc mạc và
+              hương cốm nguyên bản.
+            </p>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="core-value-card reveal-init delay-1">
+            <div class="core-value-icon">
+              <svg class="stroke-icon" width="32" height="32" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
+              </svg>
+            </div>
+            <h3 class="core-value-title">Làm Tươi Mỗi Sớm Mai</h3>
+            <p class="core-value-text">
+              Bánh được xào và gói thủ công lúc 4 giờ sáng mỗi ngày. Không sử dụng bất kỳ chất bảo quản nào, trao gửi
+              đến bạn tấm bánh dẻo thơm tươi mới.
+            </p>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="core-value-card reveal-init delay-2">
+            <div class="core-value-icon">
+              <svg class="stroke-icon" width="32" height="32" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+                <path d="M15 18H9" />
+                <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" />
+                <circle cx="17" cy="18" r="2" />
+                <circle cx="7" cy="18" r="2" />
+              </svg>
+            </div>
+            <h3 class="core-value-title">Giao Nhanh Giữ Trọn Vị</h3>
+            <p class="core-value-text">
+              Giao hoả tốc trong ngày tại nội thành Hà Nội và đóng gói cẩn thận bằng lá chuối, lá sen tươi giúp bánh giữ
+              trọn độ ẩm dẻo và hương thơm ngát.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. CATEGORY & PRODUCT GRID (8 SẢN PHẨM / LƯỚI 4 CỘT BÁM SÁT WIREFRAME)
+         ========================================================================== -->
+    <section id="products" class="product-section">
+      <div class="container-custom">
+        <div style="text-align:center;">
+          <div class="section-tag">Bánh Cổ Truyền Hà Nội</div>
+          <h2 class="section-title">Danh Mục Bánh Truyền Thống</h2>
+          <p class="section-desc">
+            Chọn lựa từ những thức bánh cổ truyền danh tiếng của đất Thăng Long xưa, được Son Cake gìn giữ vẹn nguyên
+            công thức gia truyền.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-category="all">Tất cả bánh</button>
+          <button class="filter-btn" data-category="banh-com">Bánh Cốm</button>
+          <button class="filter-btn" data-category="banh-dau-xanh">Bánh Đậu Xanh</button>
+          <button class="filter-btn" data-category="banh-phu-the">Bánh Phu Thê</button>
+          <button class="filter-btn" data-category="banh-gai">Bánh Gai</button>
+          <button class="filter-btn" data-category="hop-qua">Hộp Quà Biếu</button>
+        </div>
+
+        <!-- Category Story & Highlight Product -->
+        <div id="categoryHighlightWrap" class="category-highlight-wrap">
+          <!-- Rendered dynamically by script.js -->
+        </div>
+
+        <!-- Products Grid Rendered by JS -->
+        <div id="productGrid" class="product-grid">
+          <!-- Rendered dynamically by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. ABOUT US (BÊN TRÁI 4 CỘT: CONTENT | CÁCH 2 CỘT | BÊN PHẢI 6 CỘT: VIDEO)
+         ========================================================================== -->
+    <section id="about" class="about-section">
+      <div class="container-custom">
+        <div class="about-layout-grid">
+          <!-- Bên trái (4 cột): Content gồm Title và Detail (20px, tối đa 4 dòng) -->
+          <div class="about-content-col reveal-init">
+            <div class="section-tag">Hồn quê giữa phố thị</div>
+            <h2 class="about-content-title">Chuyện Về Tiệm Bánh SON</h2>
+            <p class="about-detail-text">
+              Hơn ba mươi năm qua, tiệm bánh SON giữ trọn hương cốm non, đậu xanh và lá sen Hà Thành qua từng mẻ bánh
+              thủ công sớm mai.
+            </p>
+          </div>
+
+          <!-- Bên phải (6 cột, cách Content 2 cột): Video giới thiệu -->
+          <div class="about-media-col reveal-init delay-1">
+            <div class="about-video-wrap">
+              <video class="about-video" controls playsinline preload="metadata"
+                poster="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/story_artisan.png">
+                <source src="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/about_son.mp4" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ phát video HTML5.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. MEMBER TEAM (NGHỆ NHÂN TIỆM BÁNH - 4 CỘT WIREFRAME)
+         ========================================================================== -->
+    <section id="team" class="team-section">
+      <div class="container-custom">
+        <div style="text-align:center;">
+          <div class="section-tag">Đôi bàn tay lưu giữ hồn quê</div>
+          <h2 class="section-title">Nghệ Nhân Tiệm Bánh</h2>
+          <p class="section-desc">
+            Những người dành trọn nửa đời người gắn bó với chiếc cối đá, bếp than và từng mẻ bánh ngọt lành của Hà Nội.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Member 1 -->
+          <div class="team-card reveal-init">
+            <div class="team-photo-wrap">
+              <img src="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/team_son.jpg" alt="Bà Nguyễn Thị Son"
+                class="team-photo"
+                onerror="this.src='https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/story_artisan.png'">
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Bà Nguyễn Thị Son</h3>
+              <div class="team-role">Nghệ nhân sáng lập</div>
+              <p class="team-quote">"Làm bánh cổ truyền cốt ở chữ tâm, lửa than vừa tới thì bánh mới dẻo thơm đậm vị."
+              </p>
+            </div>
+          </div>
+
+          <!-- Member 2 -->
+          <div class="team-card reveal-init delay-1">
+            <div class="team-photo-wrap">
+              <img src="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/team_hung.jpg" alt="Bác Trần Văn Hưng"
+                class="team-photo"
+                onerror="this.src='https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/story_artisan.png'">
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Bác Trần Văn Hưng</h3>
+              <div class="team-role">Bếp trưởng Xào Cốm</div>
+              <p class="team-quote">"Mỗi mẻ cốm xào là một bản hòa ca giữa lửa, đường phèn và nếp cái hoa vàng."</p>
+            </div>
+          </div>
+
+          <!-- Member 3 -->
+          <div class="team-card reveal-init delay-2">
+            <div class="team-photo-wrap">
+              <img src="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/team_thao.jpg" alt="Cô Lê Thanh Thảo"
+                class="team-photo"
+                onerror="this.src='https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/story_artisan.png'">
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Cô Lê Thanh Thảo</h3>
+              <div class="team-role">Nghệ nhân Bánh Phu Thê</div>
+              <p class="team-quote">"Nhân đậu hạt sen phải mịn màng như tình nghĩa trăm năm đôi lứa ngày cưới."</p>
+            </div>
+          </div>
+
+          <!-- Member 4 -->
+          <div class="team-card reveal-init delay-3">
+            <div class="team-photo-wrap">
+              <img src="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/team_duc.jpg" alt="Anh Hoàng Minh Đức"
+                class="team-photo"
+                onerror="this.src='https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/story_artisan.png'">
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Anh Hoàng Minh Đức</h3>
+              <div class="team-role">Nghệ nhân thế hệ trẻ</div>
+              <p class="team-quote">"Đem tinh hoa bánh truyền thống tiếp cận thế hệ trẻ qua cách đóng gói mộc mạc, tinh
+                tế."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. USER STORY (CẢM NHẬN KHÁCH HÀNG - NỀN ẢNH + BLUR + MASK ĐEN 60%)
+         ========================================================================== -->
+    <section id="reviews" class="user-story-section">
+      <div class="user-story-overlay" aria-hidden="true"></div>
+      <div class="container-custom" style="position:relative; z-index:2;">
+        <div style="text-align:center;">
+          <div class="section-tag">Chia sẻ của thực khách</div>
+          <h2 class="section-title" style="color:#fff;">Cảm Nhận Về Bánh SON</h2>
+          <p class="section-desc" style="color:rgba(255,255,255,0.86);">
+            Mỗi lời khen ngợi và sẻ chia từ bạn là niềm hạnh phúc lớn lao tiếp thêm lửa cho căn bếp Son Cake mỗi ngày.
+          </p>
+        </div>
+
+        <div class="story-slider-wrap">
+          <!-- Story 1 -->
+          <div class="testimonial-card active">
+            <div class="testimonial-product-thumb">
+              <img src="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/LAI_4385.jpg"
+                alt="Bánh Cốm Mộc Làng Vòng" class="testimonial-product-img"
+                onerror="this.src='https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/product_banh_com.png'">
+            </div>
+            <div class="testimonial-stars" aria-label="Đánh giá 5 sao">
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+            <p class="testimonial-text">
+              "Lâu lắm rồi tôi mới được ăn một chiếc bánh cốm mộc đúng vị Hà Nội xưa đến vậy. Bánh không hề bị ngọt gắt,
+              cốm dẻo thơm tự nhiên và nhân dừa béo ngậy. Cả nhà ai cũng khen nức nở!"
+            </p>
+            <div class="testimonial-author">Chị Phương Linh</div>
+          </div>
+
+          <!-- Story 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-product-thumb">
+              <img src="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/LAI_4380.jpg" alt="Bánh Phu Thê Son"
+                class="testimonial-product-img"
+                onerror="this.src='https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/product_banh_com.png'">
+            </div>
+            <div class="testimonial-stars" aria-label="Đánh giá 5 sao">
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+            <p class="testimonial-text">
+              "Vợ chồng tôi đặt 300 cặp bánh phu thê của tiệm cho đám cưới con gái út. Khách đến dự ai nấy đều khen bánh
+              vừa đẹp mắt, vừa thơm giòn sợi dừa. Cảm ơn tiệm bánh SON rất nhiều."
+            </p>
+            <div class="testimonial-author">Bác Vũ Đình Trọng</div>
+          </div>
+
+          <!-- Story 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-product-thumb">
+              <img src="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/LAI_4417.jpg"
+                alt="Hộp Quà Ký Ức Hà Thành" class="testimonial-product-img"
+                onerror="this.src='https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/product_banh_com.png'">
+            </div>
+            <div class="testimonial-stars" aria-label="Đánh giá 5 sao">
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+            <p class="testimonial-text">
+              "Hộp quà 'Ký Ức Hà Thành' thiết kế quá trang nhã và chỉn chu. Mình dùng làm quà biếu đối tác người Nhật,
+              họ cực kỳ thích sự mộc mạc và hương thơm thanh tao của bánh cốm cùng trà sen."
+            </p>
+            <div class="testimonial-author">Anh Minh Tuấn</div>
+          </div>
+
+          <!-- Slider Controls -->
+          <button class="story-nav-btn prev" onclick="prevStory()" aria-label="Đánh giá trước">
+            <svg class="stroke-icon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m15 18-6-6 6-6" />
+            </svg>
+          </button>
+          <button class="story-nav-btn next" onclick="nextStory()" aria-label="Đánh giá tiếp theo">
+            <svg class="stroke-icon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7.5. FAQ - NHỮNG CÂU HỎI THƯỜNG GẶP (BỐ CỤC CĂN GIỮA, 1 HÀNG DROPDOWN)
+         ========================================================================== -->
+    <section id="faq" class="faq-section">
+      <div class="container-custom">
+        <div class="faq-header reveal-init">
+          <div class="section-tag">Giải đáp thắc mắc</div>
+          <h2 class="section-title">Những Câu Hỏi Thường Gặp</h2>
+          <p class="section-desc">
+            Những thông tin hữu ích giúp bạn dễ dàng chọn bánh, bảo quản đúng cách và đặt giao tận nơi từ tiệm bánh SON.
+          </p>
+        </div>
+
+        <div class="faq-list reveal-init delay-1" id="faqAccordion">
+          <div class="faq-item active">
+            <button type="button" class="faq-question-btn" aria-expanded="true">
+              <span>Bánh cốm và bánh cổ truyền SON bảo quản được trong bao lâu?</span>
+              <span class="faq-chevron">
+                <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Bánh được làm tươi mỗi sáng từ 4h, hoàn toàn không chất bảo quản. Bánh cốm mộc và bánh phu thê giữ ngon
+                nhất trong 3–4 ngày ở nhiệt độ mát (hoặc 7 ngày trong ngăn mát tủ lạnh, chỉ cần để ra nhiệt độ phòng 15
+                phút trước khi thưởng thức). Các dòng bánh đậu xanh, chè lam và bánh khảo bảo quản được 15–30 ngày ở nơi
+                khô ráo.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span>Tôi cần đặt bánh hỷ sự, mâm quả số lượng lớn thì đặt trước bao lâu?</span>
+              <span class="faq-chevron">
+                <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Với các đơn hàng hỷ sự, lễ tết hoặc quà tặng doanh nghiệp từ 30 hộp trở lên, quý khách vui lòng đặt
+                trước tối thiểu 2–3 ngày để nghệ nhân chuẩn bị nguyên liệu cốm non, hạt sen tuyển chọn và đóng gói chỉn
+                chu theo đúng lịch hẹn.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span>Tiệm bánh SON có hỗ trợ giao hàng trong ngày tại Hà Nội và gửi đi tỉnh không?</span>
+              <span class="faq-chevron">
+                <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Tiệm giao hỏa tốc nội thành Hà Nội trong vòng 1–2 giờ với các đơn đặt trước 19h mỗi ngày. Đối với khách
+                hàng tại các tỉnh thành khác hoặc TP.HCM, bánh được đóng gói hút chân không cẩn thận và gửi chuyển phát
+                nhanh hàng không để giữ trọn vị tươi ngon.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span>Bánh của SON có sử dụng chất bảo quản hay phẩm màu công nghiệp không?</span>
+              <span class="faq-chevron">
+                <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Tuyệt đối không. Toàn bộ sắc xanh, vàng hổ phách hay đen tuyền của bánh đều chiết xuất tự nhiên từ cốm
+                non đầu mùa, quả dành dành, lá gai phơi sương và đường phèn kết tinh theo công thức gia truyền 30 năm
+                của tiệm.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span>Tôi có thể tùy chỉnh lời chúc, in thiệp hoặc chọn mix các loại bánh trong hộp quà không?</span>
+              <span class="faq-chevron">
+                <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Hoàn toàn có thể. Quý khách chỉ cần ghi chú yêu cầu vào mục "Lời nhắn kèm theo" ngay tại form đặt bánh
+                phía dưới hoặc liên hệ hotline 0988 123 456, tiệm sẽ hỗ trợ thiết kế thiệp chúc và phối hộp quà theo
+                đúng nhu cầu biếu tặng.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. BOOKING NOW (ĐẶT BÁNH / ĐẶT TIỆC / TRẢI NGHIỆM - 2 CỘT WIREFRAME)
+         ========================================================================== -->
+    <section id="booking" class="booking-section">
+      <div class="container-custom">
+        <div class="booking-grid">
+          <!-- Col Left: Story & Policy -->
+          <div class="booking-info-box reveal-init">
+            <div class="section-tag">Đặt bánh theo yêu cầu</div>
+            <h2 class="section-title">Đặt Bánh Hỷ Sự & Quà Biếu Tặng</h2>
+            <p style="color:var(--color-earth-muted); line-height:1.7;">
+              Dù là mâm bánh quả cho ngày cưới trọng đại, món quà biếu đối tác trang nhã hay buổi tiệc trà họp mặt gia
+              đình, tiệm bánh SON luôn sẵn sàng chuẩn bị những mẻ bánh mới tinh khôi theo đúng số lượng và thời gian yêu
+              cầu.
+            </p>
+
+            <ul class="booking-feature-list">
+              <li class="booking-feature-item">
+                <span class="booking-feature-icon">
+                  <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
+                    <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+                  </svg>
+                </span>
+                <div>
+                  <strong>Bánh làm tươi đúng ngày nhận:</strong> Đảm bảo độ dẻo và hương vị đạt đến độ ngon hoàn mỹ
+                  nhất.
+                </div>
+              </li>
+              <li class="booking-feature-item">
+                <span class="booking-feature-icon">
+                  <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="8" width="18" height="4" rx="1" />
+                    <path d="M12 8v13" />
+                    <path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7" />
+                    <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5" />
+                  </svg>
+                </span>
+                <div>
+                  <strong>Đóng gói và thắt nơ lụa theo ý muốn:</strong> Cung cấp hộp sơn mài, tráp cưới truyền thống và
+                  thiệp chúc mừng.
+                </div>
+              </li>
+              <li class="booking-feature-item">
+                <span class="booking-feature-icon">
+                  <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                </span>
+                <div>
+                  <strong>Tư vấn nhiệt tình 24/7:</strong> Hỗ trợ điều chỉnh số lượng và hương vị theo khẩu vị từng vùng
+                  miền.
+                </div>
+              </li>
+            </ul>
+
+            <div
+              style="background:var(--color-com-subtle); padding:1.25rem; border-radius:1rem; border-left:4px solid var(--color-com);">
+              <div style="font-weight:700; color:var(--color-com); margin-bottom:0.25rem;">Hotline tiệm bánh SON:</div>
+              <div style="font-family:var(--font-serif); font-size:1.35rem; font-weight:700; color:var(--color-earth);">
+                0988 123 456 - 024 3828 9999</div>
+            </div>
+          </div>
+
+          <!-- Col Right: Booking Form -->
+          <div class="booking-card reveal-init delay-1">
+            <h3
+              style="font-family:var(--font-title); font-size:1.5rem; color:var(--color-earth); margin-bottom:0.5rem;">
+              Gửi Yêu Cầu Đặt Bánh
+            </h3>
+            <p style="font-size:0.9rem; color:var(--color-earth-muted); margin-bottom:1.5rem;">
+              Điền thông tin bên dưới, nghệ nhân SON Cake sẽ liên hệ lại với bạn trong vòng 15 phút.
+            </p>
+
+            <form id="bookingForm" class="booking-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="bookingName">Họ tên *</label>
+                  <input type="text" id="bookingName" class="form-control" placeholder="Ví dụ: Nguyễn Văn An" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="bookingPhone">Số điện thoại *</label>
+                  <input type="tel" id="bookingPhone" class="form-control" placeholder="Ví dụ: 0912 345 678" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="bookingEmail">Email *</label>
+                  <input type="email" id="bookingEmail" class="form-control" placeholder="email@vidu.vn" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="bookingDate">Ngày nhận hàng *</label>
+                  <input type="date" id="bookingDate" class="form-control" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="bookingAddress">Địa chỉ chi tiết *</label>
+                <input type="text" id="bookingAddress" class="form-control"
+                  placeholder="Số nhà, ngõ/ngách, đường/phố, phường/xã, quận/huyện..." required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="bookingCategory">Loại bánh *</label>
+                  <select id="bookingCategory" class="form-control" required></select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="bookingProduct">Tên bánh *</label>
+                  <select id="bookingProduct" class="form-control" required></select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="bookingQuantity">Số lượng *</label>
+                <input type="number" id="bookingQuantity" class="form-control" min="1" value="1" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="bookingNote">Lời nhắn kèm theo</label>
+                <textarea id="bookingNote" class="form-control" rows="3"
+                  placeholder="Khung giờ nhận bánh mong muốn, lời chúc ghi trên thiệp hoặc lưu ý riêng..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary" style="width:100%; justify-content:center;">
+                <span>Gửi Yêu Cầu Đặt Bánh Ngay</span>
+                <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       9. FOOTER (BÁM SÁT WIREFRAME)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container-custom">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand Info -->
+        <div>
+          <a href="#home" class="footer-logo-link" aria-label="Trang chủ SON Cake">
+            <img src="https://zvmqbvu7sqzuwc0h.public.blob.vercel-storage.com/logo.png" alt="SON - Cốm & Bánh Việt"
+              class="footer-logo-img" onerror="this.style.display='none'">
+          </a>
+          <div class="footer-brand-title">SON CAKE</div>
+          <div
+            style="color:var(--color-sub); font-size:0.8rem; letter-spacing:0.15em; text-transform:uppercase; margin-bottom:1rem;">
+            Cốm & Bánh Cổ Truyền
+          </div>
+          <p class="footer-desc">
+            Tiệm bánh SON tự hào gìn giữ tinh hoa bánh cốm Hà Nội và các thức bánh cổ truyền Việt Nam, mang hương vị mộc
+            mạc thơm lành đến từng nếp nhà.
+          </p>
+          <div class="footer-social-list">
+            <a href="#" class="footer-social-btn" aria-label="Facebook">
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
+            </a>
+            <a href="#" class="footer-social-btn" aria-label="Instagram">
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            </a>
+            <a href="#" class="footer-social-btn" aria-label="YouTube">
+              <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                <path d="m10 15 5-3-5-3v6Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Sản phẩm -->
+        <div>
+          <div class="footer-col-title">Sản Phẩm</div>
+          <ul class="footer-links">
+            <li><a href="#products" class="footer-link">Bánh Cốm Mộc Làng Vòng</a></li>
+            <li><a href="#products" class="footer-link">Bánh Đậu Xanh Hoàng Kim</a></li>
+            <li><a href="#products" class="footer-link">Bánh Phu Thê Hạnh Phúc</a></li>
+            <li><a href="#products" class="footer-link">Bánh Gai Tứ Trụ</a></li>
+            <li><a href="#products" class="footer-link">Chè Lam Phố Cổ</a></li>
+            <li><a href="#products" class="footer-link">Hộp Quà Ký Ức Hà Thành</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Giới thiệu -->
+        <div>
+          <div class="footer-col-title">Về Chúng Tôi</div>
+          <ul class="footer-links">
+            <li><a href="#about" class="footer-link">Câu chuyện thương hiệu</a></li>
+            <li><a href="#team" class="footer-link">Đội ngũ nghệ nhân</a></li>
+            <li><a href="#reviews" class="footer-link">Khách hàng đánh giá</a></li>
+            <li><a href="#booking" class="footer-link">Chính sách giao hàng</a></li>
+            <li><a href="#booking" class="footer-link">Đặt bánh cưới & sự kiện</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Địa chỉ & Liên hệ -->
+        <div>
+          <div class="footer-col-title">Tiệm Bánh Tại Hà Nội</div>
+          <div class="footer-contact-group">
+            <div class="footer-contact-item">
+              <svg class="stroke-icon" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Cơ sở 1: 56 Phố Hàng Than, Ba Đình, Hà Nội</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg class="stroke-icon" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Cơ sở 2: Số 12 Làng Cốm Vòng, Cầu Giấy, Hà Nội</span>
+            </div>
+          </div>
+          <div class="footer-contact-group">
+            <div class="footer-contact-item">
+              <svg class="stroke-icon" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              <span>Giờ mở cửa: 06:30 - 21:30 hàng ngày</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg class="stroke-icon" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              <span>Hotline: 0988 123 456</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg class="stroke-icon" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              <span>Email: lienhe@soncake.vn</span>
+            </div>
+          </div>
+          <form id="footerNewsletterForm" class="footer-follow-form">
+            <label for="footerFollowEmail" class="footer-follow-label">Theo dõi thông tin cửa hàng</label>
+            <div class="footer-follow-group">
+              <input type="email" id="footerFollowEmail" class="footer-follow-input" placeholder="Nhập email của bạn..."
+                required>
+              <button type="submit" class="footer-follow-btn" aria-label="Đăng ký theo dõi">
+                <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+                <span>Gửi</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>© 2026 SON Cake - Cốm & Bánh Việt. Gìn giữ tinh hoa ẩm thực Thăng Long.</div>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="#" class="footer-link">Quy định bảo mật</a>
+          <a href="#" class="footer-link">Điều khoản dịch vụ</a>
+          <a href="#" class="footer-link">Giấy phép ATTP</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       USER FLOW: CART DRAWER (GIỎ HÀNG TRƯỢT PHẢI)
+       ========================================================================== -->
+  <div id="cartOverlay" class="cart-overlay" onclick="closeCart()"></div>
+  <aside id="cartDrawer" class="cart-drawer">
+    <div class="cart-header">
+      <div class="cart-title">
+        <svg class="stroke-icon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
+          <path d="M3 6h18" />
+          <path d="M16 10a4 4 0 0 1-8 0" />
+        </svg>
+        <span>Giỏ Bánh Của Bạn</span>
+      </div>
+      <button class="cart-close-btn" onclick="closeCart()" aria-label="Đóng giỏ hàng">
+        <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18 6 6 18" />
+          <path d="m6 6 12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <div class="cart-body">
+      <!-- Empty state -->
+      <div id="cartEmptyState" class="cart-empty-state">
+        <div class="cart-empty-icon">
+          <svg class="stroke-icon" width="48" height="48" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
+            <path d="M3 6h18" />
+            <path d="M16 10a4 4 0 0 1-8 0" />
+          </svg>
+        </div>
+        <p style="font-weight:600; margin-bottom:0.5rem;">Chưa có chiếc bánh nào trong giỏ</p>
+        <p style="font-size:0.85rem;">Hãy dạo xem và chọn cho mình những thức bánh thơm bùi bạn nhé!</p>
+      </div>
+
+      <!-- Items list -->
+      <div id="cartItemsList" style="display:flex; flex-direction:column; gap:0.75rem;"></div>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span class="cart-total-label">Tổng cộng:</span>
+        <span id="cartTotalAmount" class="cart-total-amount">0 ₫</span>
+      </div>
+      <button id="cartCheckoutBtn" class="btn-primary" style="width:100%; justify-content:center;"
+        onclick="openCheckoutModal()">
+        <span>Tiến Hành Đặt Bánh</span>
+        <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 12h14" />
+          <path d="m12 5 7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       USER FLOW: CHECKOUT MODAL (TIẾN HÀNH ĐẶT HÀNG)
+       ========================================================================== -->
+  <div id="modalOverlay" class="modal-overlay"></div>
+
+  <div id="checkoutModal" class="checkout-modal">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem;">
+      <h3 style="font-family:var(--font-title); font-size:1.5rem; color:var(--color-earth);">
+        Xác Nhận Đặt Bánh
+      </h3>
+      <button class="cart-close-btn" onclick="closeCheckoutModal()" aria-label="Đóng hộp thoại">
+        <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18 6 6 18" />
+          <path d="m6 6 12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Order summary placeholder -->
+    <div id="checkoutSummaryBox"></div>
+
+    <form id="checkoutForm" class="checkout-form-stack">
+      <div class="checkout-form-grid">
+        <div class="form-group">
+          <label class="form-label" for="buyerName">Họ tên *</label>
+          <input type="text" id="buyerName" class="form-control" placeholder="Nguyễn Văn An" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="buyerPhone">Số điện thoại *</label>
+          <input type="tel" id="buyerPhone" class="form-control" placeholder="0912 345 678" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="buyerEmail">Email *</label>
+          <input type="email" id="buyerEmail" class="form-control" placeholder="email@vidu.vn" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="buyerDeliveryDate">Ngày nhận hàng *</label>
+          <input type="date" id="buyerDeliveryDate" class="form-control" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="buyerAddress">Địa chỉ chi tiết *</label>
+        <input type="text" id="buyerAddress" class="form-control"
+          placeholder="Số nhà, ngõ/ngách, đường/phố, phường/xã, quận/huyện..." required>
+      </div>
+
+      <div class="checkout-form-grid">
+        <div class="form-group">
+          <label class="form-label" for="buyerCategory">Loại bánh *</label>
+          <select id="buyerCategory" class="form-control" required></select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="buyerProduct">Tên bánh *</label>
+          <select id="buyerProduct" class="form-control" required></select>
+        </div>
+      </div>
+
+      <div class="checkout-form-grid">
+        <div class="form-group">
+          <label class="form-label" for="buyerQuantity">Số lượng *</label>
+          <input type="number" id="buyerQuantity" class="form-control" min="1" value="1" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Phương thức thanh toán</label>
+          <div style="display:flex; flex-direction:column; gap:0.4rem; font-size:0.85rem; padding-top:4px;">
+            <label style="display:flex; align-items:center; gap:0.5rem; cursor:pointer;">
+              <input type="radio" name="paymentMethod" value="COD" checked>
+              <span>Tiền mặt khi nhận bánh (COD)</span>
+            </label>
+            <label style="display:flex; align-items:center; gap:0.5rem; cursor:pointer;">
+              <input type="radio" name="paymentMethod" value="TRANSFER">
+              <span>Chuyển khoản ngân hàng (QR)</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="buyerNote">Lời nhắn kèm theo</label>
+        <textarea id="buyerNote" class="form-control" rows="2"
+          placeholder="Khung giờ nhận bánh mong muốn, lời chúc ghi trên thiệp hoặc lưu ý riêng..."></textarea>
+      </div>
+
+      <button type="submit" class="btn-primary" style="width:100%; justify-content:center; margin-top:0.25rem;">
+        <span>Hoàn Tất Đặt Hàng</span>
+        <svg class="stroke-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 6 9 17l-5-5" />
+        </svg>
+      </button>
+    </form>
+  </div>
+
+  <!-- Quick View Modal -->
+  <div id="quickViewModal" class="checkout-modal">
+    <div style="display:flex; justify-content:flex-end; margin-bottom:0.5rem;">
+      <button class="cart-close-btn" onclick="closeQuickView()" aria-label="Đóng xem nhanh">
+        <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18 6 6 18" />
+          <path d="m6 6 12 12" />
+        </svg>
+      </button>
+    </div>
+    <div id="quickViewContent"></div>
+  </div>
+
+  <!-- Order Success Modal -->
+  <div id="orderSuccessModal" class="checkout-modal">
+    <div id="orderSuccessContent"></div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toastNotice" class="toast-notice">
+    <svg class="stroke-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="10" />
+      <path d="m9 12 2 2 4-4" />
+    </svg>
+    <span id="toastNoticeText">Đã thêm vào giỏ!</span>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
